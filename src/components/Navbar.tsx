@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBell, FaHeart, FaUser } from "react-icons/fa";
 
-const Header: React.FC = () => {
+const Navbar: React.FC = () => {
   return (
     <header className="flex items-center justify-around px-6 py-4 bg-gray-800 text-white shadow-md font-sans">
       {/* Logo and Website Name */}
@@ -46,4 +46,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Navbar;
